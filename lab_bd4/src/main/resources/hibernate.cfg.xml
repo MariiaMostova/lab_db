@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url">jdbc:mysql://localhost:3306/mostova_lab1?serverTimezone=UTC</property>
+    <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
+    <property name="connection.username">root</property>
+      <property name="connection.password">sm72mv35</property>
+      <property name="hbm2ddl.auto">update</property>
+    <mapping class="ua.lviv.iot.model.City"/>
+    <mapping class="ua.lviv.iot.model.Client"/>
+    <mapping class="ua.lviv.iot.model.Country"/>
+    <mapping class="ua.lviv.iot.model.Guide"/>
+    <mapping class="ua.lviv.iot.model.Hotel"/>
+    <mapping class="ua.lviv.iot.model.HotelRoom"/>
+    <mapping class="ua.lviv.iot.model.RoomType"/>
+    <mapping class="ua.lviv.iot.model.Route"/>
+    <mapping class="ua.lviv.iot.model.RouteGuide"/>
+    <mapping class="ua.lviv.iot.model.RouteStopPoint"/>
+    <mapping class="ua.lviv.iot.model.RouteType"/>
+    <mapping class="ua.lviv.iot.model.StopPoint"/>
+    <mapping class="ua.lviv.iot.model.Tour"/>
+    <mapping class="ua.lviv.iot.model.TourClient"/>
+
+  </session-factory>
+</hibernate-configuration>

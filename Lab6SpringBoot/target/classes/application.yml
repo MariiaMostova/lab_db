@@ -9,10 +9,9 @@ spring:
     show-sql: true
     hibernate:
       # Hibernate ddl auto (validate, create, create-drop, update)
-      ddl-auto: create
+      ddl-auto: update
       # Naming strategy
 #      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
-
 
 server:
   port: 8080

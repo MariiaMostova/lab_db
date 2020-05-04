@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="513c192a-76de-43b5-b71c-ec1ad86e6b20" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Lab6Trying-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Lab6Trying-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Lab6Trying-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/Lab6Trying-1.0-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
@@ -127,25 +128,25 @@
           <entry key="DockerFile" value="153" />
           <entry key="Dockerfile" value="12" />
           <entry key="xml" value="3" />
-          <entry key="yml" value="43" />
+          <entry key="yml" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="165" />
           <entry key="XML" value="3" />
-          <entry key="YAML" value="43" />
+          <entry key="YAML" value="48" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            <state relative-caret-position="34">
+              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -177,7 +178,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/controller/ClientController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-554">
@@ -427,7 +428,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588633208671" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588633817144" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -494,12 +495,12 @@
       <workItem from="1588449643444" duration="1407000" />
       <workItem from="1588451955910" duration="285000" />
       <workItem from="1588619851356" duration="1878000" />
-      <workItem from="1588621979172" duration="10560000" />
+      <workItem from="1588621979172" duration="11005000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34095000" />
+    <option name="totallyTimeSpent" value="34540000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -512,9 +513,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25263157" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25263157" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -531,7 +531,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3291815" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3291815" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.21174377" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.5391459" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
@@ -799,13 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/controller/CountryController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-554">
@@ -845,6 +838,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-554">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
         </state>
       </provider>
     </entry>

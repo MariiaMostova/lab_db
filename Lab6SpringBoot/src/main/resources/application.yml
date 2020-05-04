@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://my-mysql/mostova_lab1?verifyServerCertificate=false&useSSL=false&requireSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://my-mysql:3306/mostova_lab1?verifyServerCertificate=false&useSSL=false&requireSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
